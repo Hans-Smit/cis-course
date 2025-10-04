@@ -1,0 +1,16 @@
+[project]
+name = "cis-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipympl>=0.9.7",
+    "ipywidgets>=8.1.7",
+    "jupyterlab>=4.4.9",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "pandoc>=2.4",
+    "scipy>=1.16.2",
+]

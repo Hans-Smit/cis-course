@@ -1,0 +1,75 @@
+# Pyxel input/output data files
+data/*
+outputs/*
+*.data
+*.fits
+*.npy
+*.out
+# *.png
+*.jpg
+demo/*
+*.log
+
+# Geant4 i/o files
+*.mac
+*.ascii
+*.csv
+
+# Pycharm, Byte-compiled
+*/__pycache__/*
+*.pyc
+.idea/
+
+# MacOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs
+
+# Doc, webpage
+docs/html/
+blog/html/
+blog/public/
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.
+*.cache
+.pytest_cache/
+.ruff_cache
+htmlcov/
+pytest_report.html
+pylint_report.html
+
+# Jupyter Notebook
+.ipynb_checkpoints
+docs/jupyter_execute/howto/*.ipynb
+docs/source/howto/*.h5
+
+# mypy
+.mypy_cache/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Dask
+dask-worker-space/
+dask-scratch-space/
+*.lock
+*.dirlock
+
+# Tests
+tests/temp/
