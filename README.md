@@ -18,6 +18,8 @@ Install `uv`
 
 ## Installation
 
+Clone, build, and run juypter notebooks,
+
 ```
 git clone https://github.com/Hans-Smit/cis-course
 cd cis-course
@@ -25,3 +27,17 @@ uv venv
 uv sync
 uv run jupyter lab
 ```
+
+Optional: for PDF export,
+
+* [Latex install](https://miktex.org/download)
+* [pandoc](https://github.com/jgm/pandoc/releases)
+
+
+## References
+
+* [matplotlib](https://matplotlib.org)
+* [scipy](https://scipy.org)
+* [numpy](https://numpy.org)
+* [juypter](https://jupyter.org/)
+* [pandas](https://pandas.pydata.org/)

@@ -9,7 +9,8 @@ def bytes_to_uint16(byte_seq: bytes, index: int) -> int:
 def extract_images(image_file: Path | str) -> list[np.ndarray]:
     """Parse the binary image file and return a list of image arrays."""
     result = []
-    with open(Path(image_file), mode="rb") as f:
+    pth = Path(image_file).expanduser()
+    with open(pth, mode="rb") as f:
         img_all_bytes = f.read()
 
     header_size = bytes_to_uint16(img_all_bytes, 0)
